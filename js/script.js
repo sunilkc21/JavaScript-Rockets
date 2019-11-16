@@ -24,3 +24,11 @@
             }
        	  }
        }
+
+       var myName = function(name) {
+            alert('My name is : ' + name);
+       }
+
+       var changeColor = function() {
+            document.getElementById('cool').className = 'cool red';
+       }
